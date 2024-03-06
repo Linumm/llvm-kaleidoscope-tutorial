@@ -22,7 +22,7 @@ static std::string identifier_str; // filled in if tok_identifier
 static double num_val;             // filled in if tok_number
 
 
-// GetTok - return the next token from standard input.
+// GetTok - return the next token from standard input
 static int getTok() { 
     static int last_char = ' ';
 
